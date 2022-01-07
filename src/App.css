@@ -1,38 +1,295 @@
-.App {
-  text-align: center;
+.navBar {
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    border-bottom: grey solid 1px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+select:required:invalid {
+    color: gray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+option {
+    color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo {
+    width: 218px;
+    height: 100px;
+    color: #42ad3d;
 }
 
-.App-link {
-  color: #61dafb;
+.logoLarge {
+    width: 218px;
+    height: 250px;
+    color: #42ad3d;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.imgHome {
+    background-image: url("https://i.pinimg.com/736x/5d/b2/c3/5db2c378f75bf48bda96e39567290897.jpg");
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(40, 40, 40);
+}
+
+.imgTest {
+    background-image: url("https://media.istockphoto.com/photos/tired-funny-young-woman-in-summer-everyday-clothes-stretches-out-and-picture-id1150288820?k=20&m=1150288820&s=170667a&w=0&h=cavSOuWbP97V_fsJSAceeY8lRB92MmGVugKhi8rAasg=");
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+.imgTest2 {
+    background-image: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_481292845_77896.jpg");
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+.companyLogo {
+    height: 60px;
+    width: 80px;
+}
+
+.smallBox {
+    width: 120px;
+    height: 160px;
+    padding: 0 80px 0 80px;
+    text-align: center;
+}
+
+.smallBoxH {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.imgBackground {
+    background-image: url("https://i2-prod.bristolpost.co.uk/incoming/article4259311.ece/ALTERNATES/s1200/0_Spring-weather-May-20th-2020.jpg");
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.imgBackgroundOpacity {
+    background-color: rgba(119, 245, 114, 0.55);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    background: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    bottom: -29px;
+    right: 130px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #fcfcfc transparent transparent transparent;
+}
+
+.imgPerson {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin: 30px;
+}
+
+.inputJob {
+    width: 600px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.inputJobSelect {
+    width: 634px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.inputSearch {
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.imgMap {
+    width: 100%;
+    height: 500px;
+}
+
+.imgWorkers {
+    width: 100%;
+    height: 400px;
+    image-rendering: pixelated;
+}
+
+.jobBox {
+    width: 1000px;
+    border-bottom: grey solid 1px;
+    height: 100px;
+}
+
+.hoverEffect {
+    width: 5px;
+    height: 100%;
+}
+
+.jobBox:hover > .hoverEffect {
+    background-color: #42ad3d;
+}
+
+.jobBox:hover {
+    cursor: pointer;
+}
+
+.checkBox {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.articleBox {
+    height: 600px;
+    width: 20%;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.articleBox > img {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: grey;
+    color: #fcfcfc;
+}
+
+.footerBottom {
+    height: 80px;
+    background-color: #42ad3d;
+    width: 100%;
+}
+
+.titleBox {
+    background-color: #f3edd2;
+    height: 260px;
+    width: 100%;
+}
+
+.boxDesc {
+    width: 80%;
+}
+
+/*Flexes*/
+.d-flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.space-ev {
+    justify-content: space-evenly;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.grow1 {
+    flex: 1;
+}
+
+.grow2 {
+    flex: 2;
+}
+
+/*margins, paddings*/
+.m20 {
+    margin: 20px;
+}
+
+.m40 {
+    margin: 20px 20px 100px 20px;
+}
+
+.mt60 {
+    margin-top: 60px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.mrl20 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.mr60 {
+    margin-right: 60px;
+}
+
+.mAll40 {
+    margin: 40px;
+}
+
+/*Buttons*/
+.containedBtn {
+    background-color: #42ad3d !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+}
+
+.outlinedBtn {
+    color: #42ad3d !important;
+    border: solid #42ad3d 2px!important;
+    font-weight: bold!important;
+    font-size: 16px!important;
 }
