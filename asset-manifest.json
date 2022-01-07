@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jobify_page-react/static/css/main.8f78fc09.css",
+    "main.js": "/jobify_page-react/static/js/main.24135518.js",
+    "static/js/787.ac38bc62.chunk.js": "/jobify_page-react/static/js/787.ac38bc62.chunk.js",
+    "index.html": "/jobify_page-react/index.html",
+    "main.8f78fc09.css.map": "/jobify_page-react/static/css/main.8f78fc09.css.map",
+    "main.24135518.js.map": "/jobify_page-react/static/js/main.24135518.js.map",
+    "787.ac38bc62.chunk.js.map": "/jobify_page-react/static/js/787.ac38bc62.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f78fc09.css",
+    "static/js/main.24135518.js"
+  ]
+}
